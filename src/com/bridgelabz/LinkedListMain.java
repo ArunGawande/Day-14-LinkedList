@@ -2,9 +2,10 @@ package com.bridgelabz;
 
 public class LinkedListMain {
 	
-	public static void main(String[] args)
+	public static void main(String[] args) 
 	{
 		LinkedList linkedlist = new LinkedList();
+		
 		
 		linkedlist.addLast(56);
 		linkedlist.display();
@@ -12,7 +13,8 @@ public class LinkedListMain {
 		linkedlist.display();
 		linkedlist.insertAtSpecificIndex(1,30);
 		linkedlist.display();
-		linkedlist.deleteFirst();
+		System.out.println("Last Element Deleted");
+		linkedlist.deleteLast();
 		linkedlist.display();
 	}
 
