@@ -13,8 +13,8 @@ public class LinkedListMain {
 		linkedlist.display();
 		linkedlist.insertAtSpecificIndex(1,30);
 		linkedlist.display();
-		System.out.println("Last Element Deleted");
-		linkedlist.deleteLast();
+		System.out.println("Searched Element");
+		linkedlist.search(30);
 		linkedlist.display();
 	}
 
